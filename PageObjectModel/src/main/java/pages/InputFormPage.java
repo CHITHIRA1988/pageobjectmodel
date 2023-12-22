@@ -10,10 +10,7 @@ public class InputFormPage {
 	WebDriver driver;
 	
 	
-	private void Sysout() {
-		// TODO Auto-generated method stub
-
-	}
+	
 	public InputFormPage(WebDriver driver)
 	{
 		this.driver=driver;
