@@ -9,11 +9,6 @@ public class InputFormPage {
 	By showMessage=By.xpath("(//button[@class='btn btn-primary'])[1]");
 	WebDriver driver;
 	
-	private void Sysout() {
-		// TODO Auto-generated method stub
-
-	}
-	
 	public InputFormPage(WebDriver driver)
 	{
 		this.driver=driver;
