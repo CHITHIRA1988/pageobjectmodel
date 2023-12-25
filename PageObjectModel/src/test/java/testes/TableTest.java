@@ -49,8 +49,8 @@ public class TableTest extends BaseClass{
 	{
 		tablepage=new TablePage(driver);
 		tablepage.clickOnTableLink();
-		String cedricKelly=tablepage.getOfficeOfPerson("Cedric Kelly");
-		System.out.println(cedricKelly);
+		String cedricKellyOffice=tablepage.getOfficeOfPerson("Cedric Kelly");
+		System.out.println(cedricKellyOffice);
 		
 		
 	}

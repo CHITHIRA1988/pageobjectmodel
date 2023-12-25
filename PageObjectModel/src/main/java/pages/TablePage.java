@@ -19,7 +19,7 @@ public class TablePage {
 	@FindBy(xpath = "//div[contains(text(),'Pagination')]")
 			WebElement tableHeading;
 	@FindBy(xpath="//table//tbody//tr//td[1]")
-	List<WebElement> nameElement;
+	List<WebElement> namesElement;
 	@FindBy(xpath="//table[@id='dtBasicExample']//thead//tr[1]")
 	List<WebElement> headingElement;
 	//@FindBy(xpath = "//table[@id='dtBasicExample']//tbody//tr[4]//td[3]")
@@ -47,7 +47,7 @@ public class TablePage {
 	{
 		UtilityClass utilityclass=new UtilityClass();
 		List<String> names=new ArrayList<String>();
-        names=utilityclass.getTextOfElements(nameElement);
+        names=utilityclass.getTextOfElements(namesElement);
         //System.out.println(names);
         for(String name:names)
         {
@@ -70,7 +70,7 @@ public class TablePage {
         public String getOfficeOfPerson(String person)
         {
           		List<String> names=new ArrayList<String>();
-            names=utilityclass.getTextOfElements(nameElement);
+            names=utilityclass.getTextOfElements(namesElement);
             //System.out.println(names);
             //for(String name:names)
             //{

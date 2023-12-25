@@ -9,7 +9,7 @@ import pages.InputFormPage;
 public class InputFormTest extends BaseClass{
 	InputFormPage inputformpage;
 	@Test
-	public void verify_enterMessage()
+	public void verify_clickOnInputForm()
 	{
 		inputformpage=new InputFormPage(driver);
 		inputformpage.clickOnInputForm();

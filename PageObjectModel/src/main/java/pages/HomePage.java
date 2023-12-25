@@ -13,7 +13,7 @@ public class HomePage {
 	}
 	public void isLogoDisplayed()
 {
-	WebElement logoElement=driver.findElement(logo);
+	//WebElement logoElement=driver.findElement(logo);
 	String obsquraTitle=driver.getTitle();
 	System.out.println(obsquraTitle);
 	//boolean isLogoDisplayed=logoElement.isDisplayed();

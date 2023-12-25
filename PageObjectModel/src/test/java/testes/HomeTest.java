@@ -19,7 +19,6 @@ public class HomeTest extends BaseClass{
 	//System.out.println(obsquraTitle);
 		homepage.isLogoDisplayed();
 	
-		
 	}
 	@Test
 	public void verify_titleDisplayed()

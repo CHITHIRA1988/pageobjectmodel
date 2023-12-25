@@ -94,7 +94,7 @@ public class DatePickerPage {
 			break;
 		case 12:
 			month = "December";
-			
+			break;
 		}
 		String month_Year=month+" "+yearindex;
 		while(true)
